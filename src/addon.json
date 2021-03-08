@@ -1,0 +1,34 @@
+{
+  "is-c3-addon": true,
+  "type": "plugin",
+  "name": "BabylonModel",
+  "id": "Mikal_BabylonModel",
+  "version": "0.5.0",
+  "author": "Mikal",
+  "website": "https://kindeyegames.com",
+  "documentation": "https://kindeyegames.com",
+  "description": "Babylon Model Sprite.",
+  "editor-scripts": [
+    "plugin.js",
+    "type.js",
+    "instance.js"
+  ],
+  "file-list": [
+    "c3runtime/plugin.js",
+    "c3runtime/type.js",
+    "c3runtime/instance.js",
+    "c3runtime/conditions.js",
+    "c3runtime/actions.js",
+    "c3runtime/expressions.js",
+    "c3runtime/babylon.max.js",
+    "c3runtime/pep.js",
+    "c3runtime/babylonjs.loaders.min.js",
+    "lang/en-US.json",
+    "aces.json",
+    "addon.json",
+    "icon.svg",
+    "instance.js",
+    "plugin.js",
+    "type.js"
+  ]
+}

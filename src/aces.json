@@ -1,0 +1,227 @@
+{
+  "babylon-model": {
+    "conditions": [
+      {
+        "id": "is-model-loaded",
+        "scriptName": "isModelLoaded",
+        "isTrigger": false
+      },
+      {
+        "id": "on-model-loaded",
+        "scriptName": "onModelLoaded",
+        "isTrigger": true
+      },
+      {
+        "id": "on-animation-finished",
+        "scriptName": "onAnimationFinished",
+        "isTrigger": true,
+        "params": [
+          {
+            "id": "animation",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "id": "is-animation-playing",
+        "scriptName": "isAnimationPlaying",
+        "isTrigger": false,
+        "params": [
+          {
+            "id": "animation",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "load-file",
+        "scriptName": "loadFile",
+        "highlight": false,
+        "isAsync": true,
+        "params": [
+          {
+            "id": "file-name",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "id": "set-camera-alpha",
+        "scriptName": "setCameraAlpha",
+        "highlight": false,
+        "isAsync": false,
+        "params": [
+          {
+            "id": "alpha",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "id": "set-camera-beta",
+        "scriptName": "setCameraBeta",
+        "highlight": false,
+        "isAsync": false,
+        "params": [
+          {
+            "id": "beta",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "id": "set-camera-radius",
+        "scriptName": "setCameraRadius",
+        "highlight": false,
+        "isAsync": false,
+        "params": [
+          {
+            "id": "radius",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "id": "play-animation",
+        "scriptName": "playAnimation",
+        "highlight": false,
+        "isAsync": false,
+        "params": [
+          {
+            "id": "name",
+            "type": "string"
+          },
+          {
+            "id": "loop",
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "stop-animation",
+        "scriptName": "stopAnimation",
+        "highlight": false,
+        "isAsync": false,
+        "params": [
+          {
+            "id": "name",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "id": "set-light-intensity",
+        "scriptName": "setLightIntensity",
+        "highlight": false,
+        "isAsync": false,
+        "params": [
+          {
+            "id": "intensity",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "id": "set-z-elevation",
+        "scriptName": "setZElevation",
+        "highlight": false,
+        "isAsync": false,
+        "params": [
+          {
+            "id": "z-elevation",
+            "type": "number",
+            "initialValue": 0
+          }
+        ]
+      },
+      {
+        "id": "set-light-diffuse-color",
+        "scriptName": "setLightDiffuseColor",
+        "highlight": false,
+        "isAsync": false,
+        "params": [
+          {
+            "id": "colorR",
+            "type": "number",
+            "initialValue": 1
+          },
+          {
+            "id": "colorG",
+            "type": "number",
+            "initialValue": 1
+          },          {
+            "id": "colorB",
+            "type": "number",
+            "initialValue": 1
+          }
+        ]
+      },
+      {
+        "id": "set-light-ground-color",
+        "scriptName": "setLightGroundColor",
+        "highlight": false,
+        "isAsync": false,
+        "params": [
+          {
+            "id": "colorR",
+            "type": "number",
+            "initialValue": 1
+          },
+          {
+            "id": "colorG",
+            "type": "number",
+            "initialValue": 1
+          },          {
+            "id": "colorB",
+            "type": "number",
+            "initialValue": 1
+          }
+        ]
+      },
+      {
+        "id": "set-light-specular-color",
+        "scriptName": "setLightSpecularColor",
+        "highlight": false,
+        "isAsync": false,
+        "params": [
+          {
+            "id": "colorR",
+            "type": "number",
+            "initialValue": 1
+          },
+          {
+            "id": "colorG",
+            "type": "number",
+            "initialValue": 1
+          },          {
+            "id": "colorB",
+            "type": "number",
+            "initialValue": 1
+          }
+        ]
+      },
+      {
+        "id": "set-animation-speed-ratio",
+        "scriptName": "setAnimationSpeedRatio",
+        "highlight": false,
+        "isAsync": false,
+        "params": [
+          {
+            "id": "speed-ratio",
+            "type": "number",
+            "initialValue": 1
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "id": "current-animation",
+        "expressionName": "currentAnimation",
+        "returnType": "string"
+      }      
+    ]
+  }
+}

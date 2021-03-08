@@ -1,0 +1,220 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for BabylonModel Plugin",
+  "text": {
+    "plugins": {
+      "mikal_babylonmodel": {
+        "name": "BabylonModel",
+        "description": "Babylon Model in a sprite.",
+        "help-url": "https://kindeyegames.com",
+        "properties": {
+        },
+        "aceCategories": {
+          "babylon-model": "BabylonModel"
+        },
+        "conditions": {
+          "is-model-loaded": {
+            "list-name": "Is model loaded",
+            "display-text": "Is model loaded",
+            "description": "True when model has been loaded."
+          },
+          "on-model-loaded": {
+            "list-name": "On model loaded",
+            "display-text": "Trigger on model loaded",
+            "description": "Trigger on model loaded."
+          },
+          "is-animation-playing": {
+            "list-name": "Is animation playing",
+            "display-text": "Is animation {0} playing",
+            "description": "True when animation is playing.",
+            "params": {
+              "animation": {
+                "name": "Animation",
+                "desc": "Animation name"
+              }
+            }
+          },
+          "on-animation-finished": {
+            "list-name": "On animation finished",
+            "display-text": "Trigger on animation {0} finished",
+            "description": "Trigger on animation finished.",
+            "params": {
+              "animation": {
+                "name": "Animation",
+                "desc": "Animation name"
+              }
+            }
+          }
+        },
+        "actions": {
+          "load-file": {
+            "list-name": "Load file",
+            "display-text": "Load file {0}",
+            "description": "Load glb file",
+            "params": {
+              "file-name": {
+                "name": "Filename",
+                "desc": "Filename (GLB file)"
+              }
+            }
+          },
+          "set-camera-alpha": {
+            "list-name": "Set camera alpha",
+            "display-text": "Set camera alpha to {0}",
+            "description": "Set camera alpha",
+            "params": {
+              "alpha": {
+                "name": "Alpha",
+                "desc": "Alpha angle (0-360)"
+              }
+            }
+          },
+          "set-camera-beta": {
+            "list-name": "Set camera beta",
+            "display-text": "Set camera beta to {0}",
+            "description": "Set camera beta",
+            "params": {
+              "beta": {
+                "name": "Beta",
+                "desc": "Beta angle (0-360)"
+              }
+            }
+          },
+          "set-camera-radius": {
+            "list-name": "Set camera radius",
+            "display-text": "Set camera radius to {0}",
+            "description": "Set camera radius",
+            "params": {
+              "radius": {
+                "name": "Radius",
+                "desc": "Radius from center"
+              }
+            }
+          },
+          "play-animation": {
+            "list-name": "Play animation",
+            "display-text": "Play animation {0}, loop: {1}",
+            "description": "Play animation",
+            "params": {
+              "name": {
+                "name": "Animation",
+                "desc": "Animation name"
+              },
+              "loop": {
+                "name": "Loop",
+                "desc": "Loop animation"
+              }
+            }
+          },
+          "stop-animation": {
+            "list-name": "Stop animation",
+            "display-text": "Stop animation {0}",
+            "description": "Set animation name",
+            "params": {
+              "name": {
+                "name": "Animation",
+                "desc": "Animation name"
+              }
+            }
+          },
+          "set-light-intensity": {
+            "list-name": "Set light intensity",
+            "display-text": "Set light intensity to {0}",
+            "description": "Set light intensity",
+            "params": {
+              "intensity": {
+                "name": "Intensity",
+                "desc": "Light intensity (0-100)"
+              }
+            }
+          },
+          "set-z-elevation": {
+            "list-name": "Set Z elevation",
+            "display-text": "Set Z elevation to {0}",
+            "description": "Set Z elevation.",
+            "params": {
+              "z-elevation": {
+                "name": "Z elevation",
+                "desc": "New Z elevation."
+              }
+            }
+          },
+          "set-light-diffuse-color": {
+            "list-name": "Set light diffuse color",
+            "display-text": "Set light diffuse color to ({0},{1},{2})",
+            "description": "Set light diffuse color (R,G,B).",
+            "params": {
+              "colorR": {
+                "name": "Red",
+                "desc": "Red component (0-100)."
+              },
+              "colorG": {
+                "name": "Green",
+                "desc": "Green component (0-100)."
+              },
+              "colorB": {
+                "name": "Blue",
+                "desc": "Blue component (0-100)."
+              }
+            }
+          },
+          "set-light-ground-color": {
+            "list-name": "Set light ground color",
+            "display-text": "Set light ground color to ({0},{1},{2})",
+            "description": "Set light ground color (R,G,B).",
+            "params": {
+              "colorR": {
+                "name": "Red",
+                "desc": "Red component (0-100)."
+              },
+              "colorG": {
+                "name": "Green",
+                "desc": "Green component (0-100)."
+              },
+              "colorB": {
+                "name": "Blue",
+                "desc": "Blue component (0-100)."
+              }
+            }
+          },
+          "set-light-specular-color": {
+            "list-name": "Set light specular color",
+            "display-text": "Set light specular color to ({0},{1},{2})",
+            "description": "Set light specular color (R,G,B).",
+            "params": {
+              "colorR": {
+                "name": "Red",
+                "desc": "Red component (0-100)."
+              },
+              "colorG": {
+                "name": "Green",
+                "desc": "Green component (0-100)."
+              },
+              "colorB": {
+                "name": "Blue",
+                "desc": "Blue component (0-100)."
+              }
+            }
+          },
+          "set-animation-speed-ratio": {
+            "list-name": "Set animation speed ratio",
+            "display-text": "Set animation speed ratio to {0}",
+            "description": "Set animation speed ratio.",
+            "params": {
+              "speed-ratio": {
+                "name": "Speed ratio",
+                "desc": "New speed ration (1: 1.0X speed)."
+              }
+            }
+          }
+        },
+        "expressions": {
+          "current-animation": {
+            "description": "Current animation",
+						"translated-name": "currentAnimation"
+          }
+        }
+      }
+    }
+  }
+}
