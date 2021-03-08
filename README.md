@@ -1,4 +1,4 @@
-# babylon-sprite
+# babylon-model
 Babylon animated 3D model rendered at runtime as a sprite in Construct 3.
 
 This is an experiment! PRs and forks very welcome (I am currently more focused on other plugins and projects.)
